@@ -406,42 +406,6 @@ function App() {
 
       </div>
 
-      {/* Team Members Section */}
-      <div className="team-section">
-        <h2 className='centerText'>Our Team</h2>
-        <div className="team-cards">
-          <div className="team-card">
-            <img src="/images/member1.jpg" alt="Team Member 1" />
-            <h3>John Doe</h3>
-            <p className="team-role">Founder & CEO</p>
-            <p>John is the visionary behind Kilopi, driving the project's mission and strategy.</p>
-            <div className="team-socials">
-              <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </div>
-          <div className="team-card">
-            <img src="/images/member2.jpg" alt="Team Member 2" />
-            <h3>Jane Smith</h3>
-            <p className="team-role">CTO</p>
-            <p>Jane leads the technology development, ensuring the robustness of Kilopi's ecosystem.</p>
-            <div className="team-socials">
-              <a href="https://twitter.com/janesmith" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/janesmith" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </div>
-          <div className="team-card">
-            <img src="/images/member3.jpg" alt="Team Member 3" />
-            <h3>Mike Johnson</h3>
-            <p className="team-role">Head of Marketing</p>
-            <p>Mike oversees all marketing efforts, helping to grow the Kilopi community globally.</p>
-            <div className="team-socials">
-              <a href="https://twitter.com/mikejohnson" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/mikejohnson" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Footer */}
       <footer className="footer">
