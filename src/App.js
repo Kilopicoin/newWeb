@@ -67,7 +67,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={1500} height={1500} />
+          <img src="/images/robot-holding-chain.png" alt="homepage-hero" width={1500} height={1500} />
         </div>
       </div>
 
@@ -80,15 +80,16 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Application Development Protocol</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Application Development Protocol is a decentralized application where users can create their own web3 applications, 
+            stake their LOP tokens, vote for other Kilopi web3 applications and earn LOP tokens depending their actions.
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Binance Smart Chain
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Web3 Application brings new users, brings value to LOP tokens or burns LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -100,7 +101,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/appDev.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -108,44 +109,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Marketing Protocol</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
-          </h4>
-          <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
-            </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
-            <button className="primary-button">Docs</button>
-            </a>
-          </div>
-        </div>
-        <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
-        </div>
-      </div>
-      </div>
-
-
-
-
-      <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
-      <div className="hero-section-portfolio">
-      
-        <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
-          </h4>
-          <h4>Blockchain: Harmony
-          </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -166,15 +138,44 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Exchange Listing Protocol</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          </h4>
+          <div className="hero-buttons-portfolio">
+            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+              <button className="primary-button">Go to Collector</button>
+            </a>
+            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <button className="primary-button">Docs</button>
+            </a>
+          </div>
+        </div>
+        <div className="hero-image-portfolio">
+          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+        </div>
+      </div>
+      </div>
+
+
+
+
+      <div className='portfolio-element'>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Collector</div></h3>
+      <div className="hero-section-portfolio">
+      
+        <div className="hero-content-portfolio">
+          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          </h4>
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          </h4>
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -194,15 +195,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Pathfinder</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -222,15 +223,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Decentralized Autonomous Organization</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -250,15 +251,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Masters of Management</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -277,15 +278,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Skallia</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -305,15 +306,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Collector</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Forge</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
           </h4>
-          <h4>Blockchain: Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
           </h4>
-          <h4>Benefits to the Kilopi: Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -553,12 +554,12 @@ function App() {
             <a href="#about">About Ronin</a>
           </div>
           <div className="footer-links-column">
-            <h3>Developers</h3>
+            <h3>Ecosystem</h3>
             <a href="#docs">Docs</a>
             <a href="#github">GitHub</a>
           </div>
           <div className="footer-links-column">
-            <h3>Resources</h3>
+            <h3>LOP token</h3>
             <a href="#whitepaper">Whitepaper</a>
             <a href="#blog">Blog</a>
           </div>
