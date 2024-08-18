@@ -1,8 +1,31 @@
 // src/App.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const [activeIndex, setActiveIndex] = useState(null);
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 300) {
+      setShowScrollButton(true);
+    } else {
+      setShowScrollButton(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <div className="App">
@@ -14,13 +37,13 @@ function App() {
           </a>
         </div>
         <div className="navbar-links">
-          <a href="#learn">Learn</a>
-          <a href="#ecosystem">Ecosystem</a>
-          <a href="#build">Build</a>
-          <a href="#network">Network</a>
-          <a href="#zkevm">zkEVM</a>
-          <a href="#blog">Blog</a>
-          <a href="https://app.roninchain.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://kilopi.gitbook.io/kilopi-docs" target="_blank" rel="noopener noreferrer">Docs</a>
+          <a href="#portfolio-showcase">Ecosystem</a>
+          <a href="#token-details">Token Details/Markets</a>
+          <a href="#team-section">About</a>
+          <a href="#faq-section">FAQ</a>
+          <a href="#footer-content">Community</a>
+          <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">
             <button className="launch-app-button">Proof of Development</button>
           </a>
         </div>
@@ -36,20 +59,20 @@ function App() {
               <button className="primary-button">Build & Earn</button>
             </a>
             <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
-            <button className="primary-button">Promote & Earn</button>
+              <button className="primary-button">Promote & Earn</button>
             </a>
             <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
-            <button className="primary-button">Invest & Earn</button>
+              <button className="primary-button">Invest & Earn</button>
             </a>
           </div>
         </div>
         <div className="hero-image">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={1500} height={1500}/>
+          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={1500} height={1500} />
         </div>
       </div>
 
       {/* Portfolio Showcase */}
-      <div className="portfolio-showcase">
+      <div id="portfolio-showcase">
 
 
       <h2 className='centerText'>Ecosystem</h2>
@@ -317,7 +340,7 @@ function App() {
 
 
 
-      <div className="token-details">
+      <div id="token-details">
 
 
       <h2 className='centerText'>Token Details</h2>
@@ -407,8 +430,8 @@ function App() {
       </div>
 
       {/* Team Members Section */}
-      <div className="team-section">
-        <h2 className='centerText'>Our Team</h2>
+      <div id="team-section">
+        <h2 className="centerText">Our Team</h2>
         <div className="team-cards">
           <div className="team-card">
             <img src="/images/member1.jpg" alt="Team Member 1" />
@@ -443,29 +466,89 @@ function App() {
         </div>
       </div>
 
+      {/* FAQ Section */}
+      <div id="faq-section">
+        <h2 className="centerText">Frequently Asked Questions</h2>
+        <div className="faq-container">
+          <div className="faq-item" onClick={() => toggleFAQ(0)}>
+            <div className="faq-question">
+              <h3>What is Kilopi?</h3>
+              <span>{activeIndex === 0 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 0 && (
+              <div className="faq-answer">
+                <p>Kilopi is an ecosystem of Web3 applications that operates with a deflationary tokenized system.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(1)}>
+            <div className="faq-question">
+              <h3>How does the deflationary system work?</h3>
+              <span>{activeIndex === 1 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 1 && (
+              <div className="faq-answer">
+                <p>Every transaction within the Kilopi ecosystem burns a portion of the Kilopi [LOP] tokens, reducing the total supply over time.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(2)}>
+            <div className="faq-question">
+              <h3>How can I participate in Kilopi?</h3>
+              <span>{activeIndex === 2 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 2 && (
+              <div className="faq-answer">
+                <p>You can participate by building, promoting, or investing within the Kilopi ecosystem and earn rewards for your contributions.</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+
+{/* Scroll to Top Button */}
+{showScrollButton && (
+        <button className="scroll-to-top" onClick={scrollToTop}>
+          ↑
+        </button>
+      )}
+
+
       {/* Footer */}
       <footer className="footer">
-        <div className="footer-content">
-          <div className="footer-logo">
-            <img src="/images/Kilopi_Full_new.png" alt="ronin-logo" />
-          </div>
+        <div id="footer-content">
+          
           <div className="footer-text">
-            <h2>Let's Build Together</h2>
+            <h2>Let's Grow Together</h2>
             <div className="footer-buttons">
               <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
                 <button className="primary-button">Start Building</button>
               </a>
-              <a href="/ecosystem">
-                <button className="secondary-button">Explore Ecosystem</button>
+              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+                <button className="primary-button">Start Promoting</button>
+              </a>
+              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+                <button className="primary-button">Start Investing</button>
               </a>
             </div>
           </div>
+
+
+            <div className="footer-links">
+          <a href="https://twitter.com/Ronin_Network" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://discord.gg/roninnetwork" target="_blank" rel="noreferrer">Discord</a>
+
+          </div>
+
+
+
         </div>
 
         {/* Footer Menu */}
         <div className="footer-menu">
           <div className="footer-links-column">
-            <h3>Learn</h3>
+            <h3>Docs</h3>
             <a href="#learn">How to Buy RON</a>
             <a href="#about">About Ronin</a>
           </div>
@@ -486,10 +569,13 @@ function App() {
           </div>
         </div>
 
-        <div className="footer-links">
-          <a href="https://twitter.com/Ronin_Network" target="_blank" rel="noreferrer">Twitter</a>
-          <a href="https://discord.gg/roninnetwork" target="_blank" rel="noreferrer">Discord</a>
-        </div>
+
+
+        <div className="footer-logo">
+            <img src="/images/Kilopi_Full_new.png" alt="ronin-logo" />
+          </div>
+          
+        
       </footer>
     </div>
   );
