@@ -113,11 +113,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Marketing Protocol is a decentralized application where users can create their own marketing activities for Kilopi project, stake their LOP tokens, 
+            vote for other Kilopi marketing activities and earn LOP tokens depending their actions.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Binance Smart Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Marketing Activity brings new users and brings value to LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -129,7 +130,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/marketing.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -142,11 +143,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Exchange Listing Protocol is a decentralized application where users can review Kilopi's Exchange listing process,
+             contribute to this process and earn interest on their USDT tokens.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Binance Smart Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Exchange Listing brings new users and brings value to LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -158,7 +160,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/exchangelisting.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -171,11 +173,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Collector is a special staking decentralized application where users can stake their LOP tokens and receive them back with interest.
+            There are many options in Kilopi staking including a regular monthly income model.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Users who stake, commit that they will be supporting the project long term, means solid community.
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -187,7 +190,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/collector.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
