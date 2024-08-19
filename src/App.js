@@ -357,15 +357,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Harmony Chain</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Harmony Chain</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Harmony Chain is the main chain of Kilopi project. LOP token on Harmony Chain has many utilites and there will be more..
           </h4>
-          <h4>Purpose: Creating as many as utility areas for LOP token on Harmony Chain, reach %100 circulation amount in time and make the LOP token as valueable as possible
+          <h4><div className='inlineRenkli'>Purpose:</div> Creating as many as utility areas for LOP token on Harmony Chain, reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 0x09e6E20FF399c2134C14232E172ce8ba2b03017E
+          <h4><div className='inlineRenkli'>Contract Address:</div> 0x09e6E20FF399c2134C14232E172ce8ba2b03017E
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -384,16 +384,16 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Binance Smart Chain</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Binance Smart Chain</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Binance Smart Chain is the second chain of Kilopi project. LOP token on Binance Smart Chain has some utilities and there will be more..
           </h4>
-          <h4>Purpose: Creating as many as utility areas for LOP token on Binance Smart Chain, 
+          <h4><div className='inlineRenkli'>Purpose:</div> Creating as many as utility areas for LOP token on Binance Smart Chain, 
             reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 0x20B4620a767D6dCcBB9314104D5Cf0d08d1F7045
+          <h4><div className='inlineRenkli'>Contract Address:</div> 0x20B4620a767D6dCcBB9314104D5Cf0d08d1F7045
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -412,15 +412,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Solana Chain</h3>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Solana Chain</div></h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
           <h4>Solana Chain is the third chain of Kilopi project. LOP token on Solana Chain has been created to provide a solid liquitiy for the Kilopi project.
           </h4>
-          <h4>Purpose: Creating as much as liquitiy possible, reach %100 circulation amount in time and make the LOP token as valueable as possible
+          <h4><div className='inlineRenkli'>Purpose:</div> Creating as much as liquitiy possible, reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2
+          <h4><div className='inlineRenkli'>Contract Address:</div> 7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -444,72 +444,269 @@ function App() {
         <h2 className="centerText">About the Foundation</h2>
         <div className="team-cards">
           <div className="team-card">
-            <img src="/images/member1.jpg" alt="Team Member 1" />
-            <h3>John Doe</h3>
-            <p className="team-role">Founder & CEO</p>
-            <p>John is the visionary behind Kilopi, driving the project's mission and strategy.</p>
+            <img src="/images/cem.jpg" alt="Team Member 1" />
+            <h3>Cem Tosun</h3>
+            <p className="team-role">Founder & Developer</p>
+            <p>A civil engineer who has experience for more than 8 years about gaming ecosystems creation, coding, business development and blockchain</p>
             <div className="team-socials">
-              <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
+  <a href="https://t.me/kilopi3142" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-telegram"></i>
+  </a>
+  <a href="https://www.instagram.com/kilopin3142/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/cem-tosun-45979871/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a href="https://twitter.com/kilopi3142_" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.youtube.com/@cemtosun_/videos" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.youtube.com/@gemtosun_/videos" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-youtube"></i>
+  </a>
+  <a href="https://github.com/Kilopi3142" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-github"></i>
+  </a>
+</div>
           </div>
           <div className="team-card">
-            <img src="/images/member2.jpg" alt="Team Member 2" />
-            <h3>Jane Smith</h3>
-            <p className="team-role">CTO</p>
-            <p>Jane leads the technology development, ensuring the robustness of Kilopi's ecosystem.</p>
+            <img src="/images/metin.jpg" alt="Team Member 2" />
+            <h3>Metin Avcı</h3>
+            <p className="team-role">Consultant</p>
+            <p>A Logistics Manager and Blockchain Entrepreneur with deep experience in business algorithms</p>
             <div className="team-socials">
-              <a href="https://twitter.com/janesmith" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/janesmith" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
+  <a href="https://t.me/metinavci61" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-telegram"></i>
+  </a>
+  <a href="https://www.instagram.com/metinavci.com.tr/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/metin-avci-1239a6225/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a href="https://twitter.com/metinavci_lop" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-twitter"></i>
+  </a>
+</div>
+
           </div>
           <div className="team-card">
-            <img src="/images/member3.jpg" alt="Team Member 3" />
-            <h3>Mike Johnson</h3>
-            <p className="team-role">Head of Marketing</p>
-            <p>Mike oversees all marketing efforts, helping to grow the Kilopi community globally.</p>
+            <img src="/images/mesut.png" alt="Team Member 3" />
+            <h3>Mesut Demirtaş</h3>
+            <p className="team-role">Consultant</p>
+            <p>A Crypto Project Founder (Ivy Live) Who has 10 years of experience in Digital Media and Digital Marketing and 8 years of experience in the cryptocurrency industry</p>
             <div className="team-socials">
-              <a href="https://twitter.com/mikejohnson" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://linkedin.com/in/mikejohnson" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
+  <a href="https://t.me/mesut_ivy" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-telegram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/mesut-ivy/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a href="https://twitter.com/mesut_ivy" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.youtube.com/@kriptoofis" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-youtube"></i>
+  </a>
+</div>
+
+          </div>
+          <div className="team-card">
+            <img src="/images/bilal.png" alt="Team Member 3"/>
+            <h3>Bilal Tekmil</h3>
+            <p className="team-role">Business Developer</p>
+            <p>An industrial engineering bachelor student who is a blockchain community founder with deep experience at cryptocurrencies</p>
+            <div className="team-socials">
+  <a href="https://t.me/Bilal_tekmil2534" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-telegram"></i>
+  </a>
+  <a href="https://www.instagram.com/bilal_tkml/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a href="https://twitter.com/BilalTekmil25" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.youtube.com/@BilalTekmil/shorts" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-youtube"></i>
+  </a>
+</div>
+
           </div>
         </div>
+
+
+
+        <div className="code-of-conduct">
+          <h3 className="centerText">Code of Conduct</h3>
+          <ul className="conduct-list">
+            <li><strong>Security:</strong> Our mission is to promote safety, security & best practices throughout the web3 communities.</li>
+            <li><strong>Transparency:</strong> Everything we do is decentralized, including governance and payroll.</li>
+            <li><strong>Self-Sovereignty:</strong> We enable individuals to decide what they work on.</li>
+            <li><strong>Fair Compensation:</strong> We create sustainable revenue streams that flow to contributors.</li>
+            <li><strong>Integrity:</strong> We protect each other, our brand identity, and our clients above all else.</li>
+            <li><strong>Honesty:</strong> We admit failure, work through challenges, and hold each other accountable.</li>
+            <li><strong>Curiosity:</strong> We facilitate contributors' and clients' interests in how Web3 technology will change business forever.</li>
+          </ul>
+        </div>
+
+
+
+
       </div>
 
-      {/* FAQ Section */}
       <div id="faq-section">
         <h2 className="centerText">Frequently Asked Questions</h2>
         <div className="faq-container">
-          <div className="faq-item" onClick={() => toggleFAQ(0)}>
+          {/* Existing FAQ Items */}
+
+          {/* New FAQ Items */}
+          <div className="faq-item" onClick={() => toggleFAQ(3)}>
             <div className="faq-question">
               <h3>What is Kilopi?</h3>
-              <span>{activeIndex === 0 ? '-' : '+'}</span>
+              <span>{activeIndex === 3 ? '-' : '+'}</span>
             </div>
-            {activeIndex === 0 && (
+            {activeIndex === 3 && (
               <div className="faq-answer">
-                <p>Kilopi is an ecosystem of Web3 applications that operates with a deflationary tokenized system.</p>
+                <p>Kilopi is a tokenized ecosystem where sustainable web3 applications are being developed by the organic team and community.</p>
               </div>
             )}
           </div>
-          <div className="faq-item" onClick={() => toggleFAQ(1)}>
+          <div className="faq-item" onClick={() => toggleFAQ(4)}>
             <div className="faq-question">
-              <h3>How does the deflationary system work?</h3>
-              <span>{activeIndex === 1 ? '-' : '+'}</span>
+              <h3>What does "tokenized ecosystem" mean?</h3>
+              <span>{activeIndex === 4 ? '-' : '+'}</span>
             </div>
-            {activeIndex === 1 && (
+            {activeIndex === 4 && (
               <div className="faq-answer">
-                <p>Every transaction within the Kilopi ecosystem burns a portion of the Kilopi [LOP] tokens, reducing the total supply over time.</p>
+                <p>It means that the project has many applications and all of them have functions that use the token of the project.</p>
               </div>
             )}
           </div>
-          <div className="faq-item" onClick={() => toggleFAQ(2)}>
+          <div className="faq-item" onClick={() => toggleFAQ(5)}>
             <div className="faq-question">
-              <h3>How can I participate in Kilopi?</h3>
-              <span>{activeIndex === 2 ? '-' : '+'}</span>
+              <h3>What does "sustainable web3 applications" mean?</h3>
+              <span>{activeIndex === 5 ? '-' : '+'}</span>
             </div>
-            {activeIndex === 2 && (
+            {activeIndex === 5 && (
               <div className="faq-answer">
-                <p>You can participate by building, promoting, or investing within the Kilopi ecosystem and earn rewards for your contributions.</p>
+                <p>It means that the applications are web3-based, with crucial data being stored and managed by blockchain technology. These applications are focused on long-term sustainable solutions rather than short-term trends.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(6)}>
+            <div className="faq-question">
+              <h3>What does "organic community" mean?</h3>
+              <span>{activeIndex === 6 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 6 && (
+              <div className="faq-answer">
+                <p>It means that the project does not involve any fake attempts. Everything is ongoing organically, and the community is growing naturally.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(7)}>
+            <div className="faq-question">
+              <h3>What is a D.A.O?</h3>
+              <span>{activeIndex === 7 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 7 && (
+              <div className="faq-answer">
+                <p>D.A.O stands for Decentralized Autonomous Organization, where there is no central authority.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(8)}>
+            <div className="faq-question">
+              <h3>What is Kilopi D.A.O?</h3>
+              <span>{activeIndex === 8 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 8 && (
+              <div className="faq-answer">
+                <p>Kilopi D.A.O is the main structure where decisions are made. It consists of all community channels like Telegram, Twitter, and YouTube, and includes a core web3 application where the community can propose and comment.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(9)}>
+            <div className="faq-question">
+              <h3>What is the purpose of the Kilopi D.A.O?</h3>
+              <span>{activeIndex === 9 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 9 && (
+              <div className="faq-answer">
+                <p>The purpose of the Kilopi D.A.O is to build a fair and sustainable decentralized autonomous organization to create sustainable decentralized applications on blockchains.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(10)}>
+            <div className="faq-question">
+              <h3>How can I get involved in Kilopi D.A.O?</h3>
+              <span>{activeIndex === 10 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 10 && (
+              <div className="faq-answer">
+                <p>There are 4 ways. 1. You can build web3 applications, 2. You can do marketing activities, 3. You can invest, 4. You can use Ecosystem Applications</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(11)}>
+            <div className="faq-question">
+              <h3>What is the role of the LOP token in Kilopi D.A.O?</h3>
+              <span>{activeIndex === 11 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 11 && (
+              <div className="faq-answer">
+                <p>All processes in Kilopi D.A.O require LOP tokens to make the system sustainable and prevent flooding. You can withdraw your tokens after a month without any fees.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(12)}>
+            <div className="faq-question">
+              <h3>How many total dApps will the Kilopi project have?</h3>
+              <span>{activeIndex === 12 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 12 && (
+              <div className="faq-answer">
+                <p>The number is unlimited. The main team will start a new one every time a dApp development is finalized.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(14)}>
+            <div className="faq-question">
+              <h3>Can I stake my LOP tokens?</h3>
+              <span>{activeIndex === 14 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 14 && (
+              <div className="faq-answer">
+                <p>Yes. For Harmony Chain, you can use Collector Application in the Ecosystem. For Binance Smart Chain, 
+                  you can use "Application Development Protocol" or "Marketing Protocol" in the Ecosystem, for Solana Chain, 
+                  there is only liquidity staking option on Raydium DEX.
+                </p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(18)}>
+            <div className="faq-question">
+              <h3>Is there an exit plan from the project?</h3>
+              <span>{activeIndex === 18 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 18 && (
+              <div className="faq-answer">
+                <p>No, there is no exit plan from the Kilopi project. Core team will keep educating new people and develop as many as decentralized applications 
+                  until the circulation supply reaches to maximum supply.</p>
+              </div>
+            )}
+          </div>
+          <div className="faq-item" onClick={() => toggleFAQ(19)}>
+            <div className="faq-question">
+              <h3>I have another question!</h3>
+              <span>{activeIndex === 19 ? '-' : '+'}</span>
+            </div>
+            {activeIndex === 19 && (
+              <div className="faq-answer">
+                <p>Please send an email to info@kilopi.net. We will reply back as soon as possible.</p>
               </div>
             )}
           </div>
@@ -545,11 +742,29 @@ function App() {
           </div>
 
 
-            <div className="footer-links">
-          <a href="https://twitter.com/Ronin_Network" target="_blank" rel="noreferrer">Twitter</a>
-          <a href="https://discord.gg/roninnetwork" target="_blank" rel="noreferrer">Discord</a>
-
-          </div>
+          <div className="footer-links">
+      <a href="https://t.me/tokenkilopi" target="_blank" rel="noreferrer">
+        <i className="fab fa-telegram"></i>
+      </a>
+      <a href="https://x.com/kilopicoin" target="_blank" rel="noreferrer">
+        <i className="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/kilopi-d-a-o/" target="_blank" rel="noreferrer">
+        <i className="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.youtube.com/@KilopiProject" target="_blank" rel="noreferrer">
+        <i className="fab fa-youtube"></i>
+      </a>
+      <a href="mailto:info@kilopi.net" target="_blank" rel="noreferrer">
+        <i className="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/Kilopicoin" target="_blank" rel="noreferrer">
+        <i className="fab fa-github"></i>
+      </a>
+      <a href="https://medium.com/@kilopi_lop" target="_blank" rel="noreferrer">
+        <i className="fab fa-medium"></i>
+      </a>
+    </div>
 
 
 

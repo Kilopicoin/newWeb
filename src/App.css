@@ -208,13 +208,13 @@ body {
 /* Team Section */
 #team-section {
   background-color: #1c1c1e;
-  padding: 90px 20rem;
+  padding: 90px 3rem;
   text-align: center;
 }
 
 .team-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -261,11 +261,9 @@ body {
 }
 
 .team-socials a {
-  color: #007bff;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  transition: color 0.3s;
+  color: #c9cbcf;
+  font-size: 24px;
+  transition: color 0.3s ease;
 }
 
 .team-socials a:hover {
@@ -314,14 +312,12 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 2rem;
 }
 
 .footer-links a {
   color: #c9cbcf;
+  font-size: 36px; /* Adjust the size of the icons */
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
   transition: color 0.3s;
 }
 
@@ -483,4 +479,29 @@ h4 {
   line-height: 24px;
   margin-top: 9px;
   margin-bottom: 9px;
+}
+
+
+.code-of-conduct {
+  background-color: #2c2c2e;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+.conduct-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.conduct-list li {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.conduct-list strong {
+  color: #a777e3;
 }
