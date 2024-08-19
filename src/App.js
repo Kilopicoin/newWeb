@@ -202,9 +202,10 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Pathfinder is a decentralized poll application where users can vote for Crypto projects via LOP tokens. Then, 
+            Founder makes a research and publishes a review video on his youtube for the most voted projects regularly.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
           </h4>
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
@@ -230,11 +231,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Decentralized Autonomous Organization, Kilopi D.A.O, is a decentralized application where users can create proposals, write opinions 
+            and comment on them via LOP tokens.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> New ideas, opinions, comments are being collected and these bring value to the project
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -258,11 +260,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Masters of Management is a decentralized turn-based strategy game where players can create and manage their realms. 
+            Players then compete with each other by building solid economies or attacking each other.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Trading between players burns LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -285,9 +288,10 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Skallia is an ( Ultima Online ) shard including the ability to convert some in game items to tokens and NFTs. 
+            Players can explore, build, fight, trade etc. in the game and convert their efforts into the token economies.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
           </h4>
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
@@ -313,11 +317,12 @@ function App() {
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Forge is a tool for creating tokens on Solana Chain. Users can create their own tokens with the latest secure standard of Solana Chain. 
+            Users then create liquidities and markets on their tokens.
           </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony
+          <h4><div className='inlineRenkli'>Blockchain:</div> Solana Chain
           </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction add Liquidity to LOP token
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -352,15 +357,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Harmony</h3>
+      <h3 className='centerText-portfolio-element'>Harmony Chain</h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Harmony Chain is the main chain of Kilopi project. LOP token on Harmony Chain has many utilites and there will be more..
           </h4>
-          <h4>Purpose: Harmony
+          <h4>Purpose: Creating as many as utility areas for LOP token on Harmony Chain, reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 
+          <h4>Contract Address: 0x09e6E20FF399c2134C14232E172ce8ba2b03017E
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -379,15 +384,16 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Binance</h3>
+      <h3 className='centerText-portfolio-element'>Binance Smart Chain</h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Binance Smart Chain is the second chain of Kilopi project. LOP token on Binance Smart Chain has some utilities and there will be more..
           </h4>
-          <h4>Purpose: Harmony
+          <h4>Purpose: Creating as many as utility areas for LOP token on Binance Smart Chain, 
+            reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 
+          <h4>Contract Address: 0x20B4620a767D6dCcBB9314104D5Cf0d08d1F7045
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -406,15 +412,15 @@ function App() {
 
 
       <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'>Solana</h3>
+      <h3 className='centerText-portfolio-element'>Solana Chain</h3>
       <div className="hero-section-portfolio">
       
         <div className="hero-content-portfolio">
-          <h4>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System
+          <h4>Solana Chain is the third chain of Kilopi project. LOP token on Solana Chain has been created to provide a solid liquitiy for the Kilopi project.
           </h4>
-          <h4>Purpose: Harmony
+          <h4>Purpose: Creating as much as liquitiy possible, reach %100 circulation amount in time and make the LOP token as valueable as possible
           </h4>
-          <h4>Contract Address: 
+          <h4>Contract Address: 7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2
           </h4>
           <div className="hero-buttons-portfolio">
             <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
@@ -435,7 +441,7 @@ function App() {
 
       {/* Team Members Section */}
       <div id="team-section">
-        <h2 className="centerText">Our Team</h2>
+        <h2 className="centerText">About the Foundation</h2>
         <div className="team-cards">
           <div className="team-card">
             <img src="/images/member1.jpg" alt="Team Member 1" />
