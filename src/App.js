@@ -55,13 +55,13 @@ function App() {
           <h1>Fair Launch, Deflationary Tokens, Infinite Possibilities</h1>
           <h2>Kilopi is an Ecosystem of Web3 Applications with a Deflationary Tokenized System</h2>
           <div className="hero-buttons">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/application-development-protocol" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Build & Earn</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/marketing-protocol" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Promote & Earn</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/exchange-listing-protocol" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Invest & Earn</button>
             </a>
           </div>
@@ -92,10 +92,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Web3 Application brings new users, brings value to LOP tokens or burns LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Application Development Protocol</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/application-development-protocol" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -121,10 +121,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Marketing Activity brings new users and brings value to LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Marketing Protocol</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/marketing-protocol" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -151,16 +151,44 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every Exchange Listing brings new users and brings value to LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Exchange Listing Protocol</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/exchange-listing-protocol" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
         </div>
         <div className="hero-image-portfolio">
           <img src="/images/exchangelisting.png" alt="homepage-hero" width={300} height={300}/>
+        </div>
+      </div>
+      </div>
+
+
+      <div className='portfolio-element'>
+      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>No Doubt</div></h3>
+      <div className="hero-section-portfolio">
+      
+        <div className="hero-content-portfolio">
+          <h4>No Doubt is a unique transparency decentralized application 
+            where users can review all the transactions that have happened from the main LOP token pool of the project
+          </h4>
+          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
+          </h4>
+          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> This application builds decentralized trust within the community of the project
+          </h4>
+          <div className="hero-buttons-portfolio">
+            <a href="https://kilopi.net/nodoubt/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">No Doubt</button>
+            </a>
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/no-doubt" target="_blank" rel="noopener noreferrer">
+            <button className="primary-button">Docs</button>
+            </a>
+          </div>
+        </div>
+        <div className="hero-image-portfolio">
+          <img src="/images/collector.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -181,10 +209,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Users who stake, commit that they will be supporting the project long term, means solid community.
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/staking/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Collector</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/collector" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -210,10 +238,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/pathfinder/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Pathfinder</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pathfinder" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -239,10 +267,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> New ideas, opinions, comments are being collected and these bring value to the project
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/dao/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">D.A.O</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/decentralized-autonomous-organization" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -268,10 +296,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Trading between players burns LOP tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/mom/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Masters of Management</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/masters-of-management" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -296,10 +324,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/skallia/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Skallia</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/skallia" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -325,10 +353,10 @@ function App() {
           <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction add Liquidity to LOP token
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
-              <button className="primary-button">Go to Collector</button>
+            <a href="https://kilopi.net/forge/" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Forge</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/forge" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -368,10 +396,10 @@ function App() {
           <h4><div className='inlineRenkli'>Contract Address:</div> 0x09e6E20FF399c2134C14232E172ce8ba2b03017E
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+            <a href="https://explorer.harmony.one/address/0x09e6e20ff399c2134c14232e172ce8ba2b03017e" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/harmony" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -396,10 +424,10 @@ function App() {
           <h4><div className='inlineRenkli'>Contract Address:</div> 0x20B4620a767D6dCcBB9314104D5Cf0d08d1F7045
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+            <a href="https://bscscan.com/token/0x20b4620a767d6dccbb9314104d5cf0d08d1f7045" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/binance-smart-chain" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -423,10 +451,10 @@ function App() {
           <h4><div className='inlineRenkli'>Contract Address:</div> 7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2
           </h4>
           <div className="hero-buttons-portfolio">
-            <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+            <a href="https://solscan.io/token/7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
             </a>
-            <a href="https://docs.roninchain.com/docs/basics/introduction" target="_blank" rel="noreferrer">
+            <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/solana" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
           </div>
@@ -729,13 +757,13 @@ function App() {
           <div className="footer-text">
             <h2>Let's Grow Together</h2>
             <div className="footer-buttons">
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Building</button>
               </a>
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Promoting</button>
               </a>
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noreferrer">
+              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Investing</button>
               </a>
             </div>
@@ -743,25 +771,25 @@ function App() {
 
 
           <div className="footer-links">
-      <a href="https://t.me/tokenkilopi" target="_blank" rel="noreferrer">
+      <a href="https://t.me/tokenkilopi" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-telegram"></i>
       </a>
-      <a href="https://x.com/kilopicoin" target="_blank" rel="noreferrer">
+      <a href="https://x.com/kilopicoin" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/company/kilopi-d-a-o/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/company/kilopi-d-a-o/" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-linkedin"></i>
       </a>
-      <a href="https://www.youtube.com/@KilopiProject" target="_blank" rel="noreferrer">
+      <a href="https://www.youtube.com/@KilopiProject" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-youtube"></i>
       </a>
-      <a href="mailto:info@kilopi.net" target="_blank" rel="noreferrer">
+      <a href="mailto:info@kilopi.net" target="_blank" rel="noopener noreferrer">
         <i className="fas fa-envelope"></i>
       </a>
-      <a href="https://github.com/Kilopicoin" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Kilopicoin" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-github"></i>
       </a>
-      <a href="https://medium.com/@kilopi_lop" target="_blank" rel="noreferrer">
+      <a href="https://medium.com/@kilopi_lop" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-medium"></i>
       </a>
     </div>
@@ -774,23 +802,31 @@ function App() {
         <div className="footer-menu">
           <div className="footer-links-column">
             <h3>Docs</h3>
-            <a href="#learn">How to Buy RON</a>
-            <a href="#about">About Ronin</a>
+            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/intro" target="_blank" rel="noopener noreferrer">Ecosystem</a>
+            <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/intro" target="_blank" rel="noopener noreferrer">LOP Token</a>
+            <a href="https://kilopi.gitbook.io/kilopi-docs/foundation/intro" target="_blank" rel="noopener noreferrer">Foundation</a>
           </div>
           <div className="footer-links-column">
-            <h3>Ecosystem</h3>
-            <a href="#docs">Docs</a>
-            <a href="#github">GitHub</a>
+            <h3>Proof of Development</h3>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Application Development Protocol</a>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Marketing Protocol</a>
+            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Exchange Listing Protocol</a>
           </div>
           <div className="footer-links-column">
-            <h3>LOP token</h3>
-            <a href="#whitepaper">Whitepaper</a>
-            <a href="#blog">Blog</a>
+            <h3>D.A.O</h3>
+            <a href="https://kilopi.net/nodoubt/" target="_blank" rel="noopener noreferrer">No Doubt</a>
+            <a href="https://kilopi.net/pathfinder/" target="_blank" rel="noopener noreferrer">Pathfinder</a>
+            <a href="https://kilopi.net/dao/" target="_blank" rel="noopener noreferrer">D.A.O dApp</a>
           </div>
           <div className="footer-links-column">
-            <h3>Network</h3>
-            <a href="#validator">Become a Validator</a>
-            <a href="#delegator">Become a Delegator</a>
+            <h3>Tools</h3>
+            <a href="https://kilopi.net/staking/" target="_blank" rel="noopener noreferrer">Collector</a>
+            <a href="https://kilopi.net/forge/" target="_blank" rel="noopener noreferrer">Forge</a>
+          </div>
+          <div className="footer-links-column">
+            <h3>Games</h3>
+            <a href="https://kilopi.net/mom/" target="_blank" rel="noopener noreferrer">Masters of Management</a>
+            <a href="https://kilopi.net/skallia/" target="_blank" rel="noopener noreferrer">Skallia</a>
           </div>
         </div>
 
