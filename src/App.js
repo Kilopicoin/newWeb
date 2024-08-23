@@ -33,7 +33,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-logo">
           <a href="https://kilopi.net">
-            <img src="/images/Kilopi_Full_new.png" alt="ronin-nav-logo" />
+            <img src="/images/Kilopi_Full_new.png" alt="kilopi-nav-logo" />
           </a>
         </div>
         <div className="navbar-links">
@@ -188,7 +188,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/collector.png" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/nodoubt.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -247,7 +247,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/pathfinder.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -276,7 +276,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/dao.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -305,35 +305,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
-        </div>
-      </div>
-      </div>
-
-
-      <div className='portfolio-element'>
-      <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Skallia</div></h3>
-      <div className="hero-section-portfolio">
-      
-        <div className="hero-content-portfolio">
-          <h4>Skallia is an ( Ultima Online ) shard including the ability to convert some in game items to tokens and NFTs. 
-            Players can explore, build, fight, trade etc. in the game and convert their efforts into the token economies.
-          </h4>
-          <h4><div className='inlineRenkli'>Blockchain:</div> Harmony Chain
-          </h4>
-          <h4><div className='inlineRenkli'>Benefits to the Kilopi:</div> Every transaction burns Kilopi [LOP] tokens
-          </h4>
-          <div className="hero-buttons-portfolio">
-            <a href="https://kilopi.net/skallia/" target="_blank" rel="noopener noreferrer">
-              <button className="primary-button">Skallia</button>
-            </a>
-            <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/skallia" target="_blank" rel="noopener noreferrer">
-            <button className="primary-button">Docs</button>
-            </a>
-          </div>
-        </div>
-        <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/mom.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -362,7 +334,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/forge.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -405,7 +377,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/harmony.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -433,7 +405,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/bsc.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -460,7 +432,7 @@ function App() {
           </div>
         </div>
         <div className="hero-image-portfolio">
-          <img src="/images/robot-holding-chain.jpg" alt="homepage-hero" width={300} height={300}/>
+          <img src="/images/solana.png" alt="homepage-hero" width={300} height={300}/>
         </div>
       </div>
       </div>
@@ -757,13 +729,13 @@ function App() {
           <div className="footer-text">
             <h2>Let's Grow Together</h2>
             <div className="footer-buttons">
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
+              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/application-development-protocol" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Building</button>
               </a>
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
+              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/marketing-protocol" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Promoting</button>
               </a>
-              <a href="https://skymavis.typeform.com/ronin" target="_blank" rel="noopener noreferrer">
+              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/exchange-listing-protocol" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Investing</button>
               </a>
             </div>
@@ -826,14 +798,13 @@ function App() {
           <div className="footer-links-column">
             <h3>Games</h3>
             <a href="https://kilopi.net/mom/" target="_blank" rel="noopener noreferrer">Masters of Management</a>
-            <a href="https://kilopi.net/skallia/" target="_blank" rel="noopener noreferrer">Skallia</a>
           </div>
         </div>
 
 
 
         <div className="footer-logo">
-            <img src="/images/Kilopi_Full_new.png" alt="ronin-logo" />
+            <img src="/images/Kilopi_Full_new.png" alt="kilopi-logo" />
           </div>
           
         
