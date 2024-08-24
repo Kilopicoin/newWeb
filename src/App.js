@@ -39,7 +39,8 @@ function App() {
         <div className="navbar-links">
           <a href="https://kilopi.gitbook.io/kilopi-docs" target="_blank" rel="noopener noreferrer">Docs</a>
           <a href="#portfolio-showcase">Ecosystem</a>
-          <a href="#token-details">Token Details/Markets</a>
+          <a href="#token-details">Token Details</a>
+          <a href="https://kilopi.net/exchanges/" target="_blank" rel="noopener noreferrer">Markets</a>
           <a href="#team-section">About</a>
           <a href="#faq-section">FAQ</a>
           <a href="#footer-content">Community</a>
@@ -371,6 +372,9 @@ function App() {
             <a href="https://explorer.harmony.one/address/0x09e6e20ff399c2134c14232e172ce8ba2b03017e" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
             </a>
+            <a href="https://dexscreener.com/harmony/0x18af5deaad5d9d5898753620e625f2c90f106143" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">DEX Liquidity</button>
+            </a>
             <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/harmony" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
@@ -399,6 +403,9 @@ function App() {
             <a href="https://bscscan.com/token/0x20b4620a767d6dccbb9314104d5cf0d08d1f7045" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
             </a>
+            <a href="https://dexscreener.com/bsc/0x5efd04dd954da8694360f92bd6d4bd83122798c2" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">DEX Liquidity</button>
+            </a>
             <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/binance-smart-chain" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
             </a>
@@ -425,6 +432,9 @@ function App() {
           <div className="hero-buttons-portfolio">
             <a href="https://solscan.io/token/7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2" target="_blank" rel="noopener noreferrer">
               <button className="primary-button">Explorer</button>
+            </a>
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/JCVxDdvbVterUCHKiGWWG6ibcC4HFCg4SzmYCMP8Wr4n?t=1724482058048" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">DEX Liquidity</button>
             </a>
             <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/solana" target="_blank" rel="noopener noreferrer">
             <button className="primary-button">Docs</button>
