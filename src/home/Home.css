@@ -1,0 +1,202 @@
+.home{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+}
+
+/* Button Styles */
+.primary-button {
+    background: var(--primary-button);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+    transition: background 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+    -o-transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.primary-button:hover {
+    background: var(--primary-button-hover);
+    -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Scroll to Top Button Styles */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    padding: 10px 21px;
+    border-radius: 50%;
+    font-size: 27px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+    transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+    -o-transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #00e1ff;
+    -webkit-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+
+/* Telegram Hover */
+.footer-links a:hover .fa-telegram,
+.team-socials a:hover .fa-telegram {
+  color: var(--telegram-hover-color); /* Telegram brand color */
+}
+
+/* Twitter Hover */
+.footer-links a:hover .fa-twitter,
+.team-socials a:hover .fa-twitter {
+  color: var(--twitter-hover-color) /* Twitter brand color */
+}
+
+/* LinkedIn Hover */
+.footer-links a:hover .fa-linkedin,
+.team-socials a:hover .fa-linkedin {
+  color: var(--linkedin-hover-color); /* LinkedIn brand color */
+}
+
+/* YouTube Hover */
+.footer-links a:hover .fa-youtube,
+.team-socials a:hover .fa-youtube {
+  color: var(--youtube-hover-color); /* YouTube brand color */
+}
+
+/* Email Hover */
+.footer-links a:hover .fa-envelope,
+.team-socials a:hover .fa-envelope {
+  color: var(--email-hover-color); /* A standard color for email icons */
+}
+
+/* GitHub Hover */
+.footer-links a:hover .fa-github,
+.team-socials a:hover .fa-github {
+  color: var(--github-hover-color); /* GitHub brand color */
+}
+
+/* Medium Hover */
+.footer-links a:hover .fa-medium,
+.team-socials a:hover .fa-medium {
+  color: var(--medium-hover-color); /* Medium brand color */
+}
+
+/* Instagram Hover */
+.team-socials a:hover .fa-instagram {
+  color: var(--instagram-hover-color); /* Instagram brand color */
+}
+
+@media screen and (max-width: 319px) {
+    .primary-button {
+        padding: 10px 24px;
+        font-size: 12px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .primary-button {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .primary-button {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .primary-button {
+        padding: 12px 16px;
+        font-size: 12px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .primary-button {
+        padding: 12px 19px;
+        font-size: 14px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .primary-button {
+        padding: 13px 20px;
+        font-size: 15px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .primary-button {
+        padding: 15px 24px;
+        font-size: 16px;
+    }
+    
+    .primary-button:hover {
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+    }
+}

@@ -1,0 +1,209 @@
+/* Portfolio Showcase*/
+#portfolio-showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #1c1c1e;
+    width: 100%;
+}
+
+.portfolio-showcase-inside{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: var(--global-width);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+.centerText {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.briefh4 {
+    color: white;
+    text-align: center;
+    text-align: center;
+    margin: 0px;
+}
+
+@media screen and (max-width: 319px) {
+    #portfolio-showcase {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .portfolio-showcase-inside {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 14px;
+    }
+      
+    .centerText {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 14px;
+    }
+      
+    .centerText {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      
+    .centerText {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .centerText {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 90px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .centerText {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 90px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .centerText {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #portfolio-showcase {
+        padding-bottom: 60px;
+        padding-top: 90px;
+    }
+
+    .portfolio-showcase-inside {
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .centerText {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    .briefh4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

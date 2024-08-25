@@ -1,0 +1,72 @@
+/* COLORS */
+:root {
+    /* NAVBAR */
+    --navbar-background-color: #1c1c1e;
+    --navbar-dropdown-background-color: #1c1c1e;
+    --navbar-links-color: #c9cbcf;
+    --navbar-links-color-hover: #fff;
+    --navbar-launch-app-button: linear-gradient(135deg, #ff7e5f, #feb47b);
+    --navbar-launch-app-button-hover: linear-gradient(135deg, #feb47b, #ff7e5f);
+
+    /* BUTTONS */
+    --primary-button: linear-gradient(135deg, #24C6DC, #514A9D);
+    --primary-button-hover: linear-gradient(135deg, #3dc4d6, #6a659c);
+
+    /* PORTFOLIO ELEMENT */
+    --portfolio-colored-title: #00e1ff;
+
+    /* TEAM */
+    --team-section-background: #1c1c1e;
+    --team-card-background: #2c2c2e;
+    --team-info-color: #c9cbcf;
+    --team-role-color: #00e1ff;
+    --team-socials-color: #c9cbcf;
+    --code-of-conduct-background: #2c2c2e;
+    --code-of-conduct-strong: #00e1ff;
+
+    /* SOCIAL */
+    --telegram-hover-color: #0088cc;
+    --twitter-hover-color: #1DA1F2;
+    --linkedin-hover-color: #0077B5;
+    --youtube-hover-color: #FF0000;
+    --email-hover-color: #D44638;
+    --github-hover-color: #333;
+    --medium-hover-color: #00ab6c;
+    --instagram-hover-color: #E4405F;
+}
+
+@media screen and (max-width: 319px) { 
+    :root {
+        --global-width: 280px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    :root {
+        --global-width: 300px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    :root {
+        --global-width: 540px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --global-width: 720px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    :root {
+        --global-width: 960px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    :root {
+        --global-width: 1140px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    :root {
+        --global-width: 1320px;
+    }
+}

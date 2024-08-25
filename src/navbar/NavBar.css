@@ -1,0 +1,537 @@
+/* Navbar Styles */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  background-color: var(--navbar-background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  width: var(--global-width);
+}
+
+.navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-links a {
+  color: var(--navbar-links-color);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.link-drop-down{
+  display: block;
+}
+
+.navbar-links a:hover {
+  color: var(--navbar-links-color-hover);
+}
+
+.navbar-burger {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--navbar-dropdown-background-color);
+  overflow: none;
+}
+
+.navbar-dropdown a {
+  color: var(--navbar-links-color);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.navbar-dropdown a:hover {
+  color: var(--navbar-links-color-hover);
+}
+
+/* Launch App Button */
+.launch-app-button {
+  background: var(--navbar-launch-app-button);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: background 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+  transition: background 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+  -o-transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+}
+
+.launch-app-button:hover {
+  background: var(--navbar-launch-app-button-hover);
+}
+
+/* Responsive */
+@media screen and (max-width: 319px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navbar-logo img {
+    height: 32px;
+  }
+
+  .link-drop-down{
+    display: none;
+  }
+
+  .link-pod {
+    display: none;
+  }
+
+  .navbar-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .navbar-burger-svg{
+    width: 22px;
+    height: 22px;
+    color: white;
+    fill: white;
+  }
+
+  .navbar-dropdown{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 4px
+  }
+
+  .navbar-dropdown a {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .link-drop-down-pod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .navbar-logo img {
+    height: 36px;
+  }
+
+  .link-drop-down{
+    display: none;
+  }
+
+  .link-pod {
+    display: none;
+  }
+
+  .navbar-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .navbar-burger-svg{
+    width: 26px;
+    height: 26px;
+    color: white;
+    fill: white;
+  }
+
+  .navbar-dropdown{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 6px
+  }
+
+  .navbar-dropdown a {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .link-drop-down-pod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 7px 14px;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    /* Navbar Styles */
+    .navbar {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+  
+    .navbar-logo img {
+      height: 36px;
+    }
+  
+    .navbar-links {
+      gap: 14px;
+    }
+  
+    .navbar-links a {
+      font-weight: 600;
+      font-size: 15px;
+    }
+  
+    .link-drop-down{
+      display: none;
+    }
+  
+    .navbar-burger {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      cursor: pointer;
+    }
+  
+    .navbar-burger-svg{
+      width: 26px;
+      height: 26px;
+      color: white;
+      fill: white;
+    }
+  
+    .navbar-dropdown{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      gap:6px
+    }
+  
+    .navbar-dropdown a {
+      font-weight: 600;
+      font-size: 18px;
+    }
+  
+    .link-drop-down-pod {
+      display: none;
+    }
+  
+    /* Launch App Button */
+    .launch-app-button {
+      padding: 7px 14px;
+      font-size: 15px;
+      border-radius: 50px;
+    }
+  
+    .launch-app-button:hover {
+      -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translateY(-1px);
+          -ms-transform: translateY(-1px);
+              transform: translateY(-1px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .navbar-logo img {
+    height: 36px;
+  }
+
+  .navbar-links {
+    gap: 14px;
+  }
+
+  .navbar-links a {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .link-drop-down{
+    display: none;
+  }
+
+  .navbar-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .navbar-burger-svg{
+    width: 26px;
+    height: 26px;
+    color: white;
+    fill: white;
+  }
+
+  .navbar-dropdown{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 6px
+  }
+
+  .navbar-dropdown a {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .link-drop-down-pod {
+    display: none;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 7px 14px;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .navbar-logo img {
+    height: 36px;
+  }
+
+  .navbar-links {
+    gap: 14px;
+  }
+
+  .navbar-links a {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .navbar-burger {
+    display: none;
+  }
+
+  .navbar-dropdown{
+    display: none;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 7px 14px;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+  }
+
+  .navbar-links {
+    gap: 16px;
+  }
+
+  .navbar-links a {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .navbar-burger {
+    display: none;
+  }
+
+  .navbar-dropdown{
+    display: none;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* Navbar Styles */
+  .navbar {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+  }
+
+  .navbar-links {
+    gap: 18px;
+  }
+
+  .navbar-links a {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .navbar-burger {
+    display: none;
+  }
+
+  .navbar-dropdown{
+    display: none;
+  }
+
+  /* Launch App Button */
+  .launch-app-button {
+    padding: 9px 18px;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+
+  .launch-app-button:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}

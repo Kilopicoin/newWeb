@@ -1,0 +1,378 @@
+/* Hero Section */
+.hero-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    width: 100%;
+
+    background-color: #101010;
+
+    padding-top: 60px;
+}
+
+.hero-section-inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: var(--global-width);
+
+    -webkit-box-pack: justify;
+
+        -ms-flex-pack: justify;
+
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+}
+  
+.hero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+  
+.hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+}
+  
+.hero-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+  
+.hero-image img {
+    height: auto;
+}
+
+@media screen and (max-width: 319px) {
+    .hero-section-inside {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .hero-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      
+    .hero-content h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 16px;
+    }
+      
+    .hero-buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 6px;
+        margin-top: 4px;
+    }
+
+    .hero-image {
+        margin-top: 24px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+      
+    .hero-image img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .hero-section-inside {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .hero-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        max-width: 100%;
+        min-width: 70%;
+    }
+      
+    .hero-content h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 20px;
+    }
+      
+    .hero-buttons {
+        gap: 8px;
+        margin-top: 6px;
+    }
+
+    .hero-image {
+        margin-top: 24px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+      
+    .hero-image img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-section-inside {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .hero-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        max-width: 90%;
+        min-width: 60%;
+    }
+      
+    .hero-content h1 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+      
+    .hero-buttons {
+        gap: 8px;
+        margin-top: 6px;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+      
+    .hero-image img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-section-inside {
+        padding-top: 130px;
+        padding-bottom: 150px;
+    }
+
+    .hero-content {
+        margin-left: 30px;
+        min-width: 50%;
+        max-width: 60%;
+    }
+      
+    .hero-content h1 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 17px;
+    }
+      
+    .hero-buttons {
+        gap: 8px;
+        margin-top: 14px;
+    }
+      
+    .hero-image img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-section-inside {
+        padding-top: 150px;
+        padding-bottom: 180px;
+    }
+
+    .hero-content {
+        margin-left: 35px;
+        min-width: 50%;
+        max-width: 60%;
+    }
+      
+    .hero-content h1 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 18px;
+    }
+      
+    .hero-buttons {
+        gap: 10px;
+        margin-top: 14px;
+    }
+      
+    .hero-image img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .hero-section-inside {
+        padding-top: 150px;
+        padding-bottom: 180px;
+    }
+
+    .hero-content {
+        margin-left: 40px;
+        min-width: 50%;
+        max-width: 60%;
+    }
+      
+    .hero-content h1 {
+        font-size:30px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 20px;
+    }
+      
+    .hero-buttons {
+        gap: 12px;
+        margin-top: 14px;
+    }
+      
+    .hero-image img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hero-section-inside {
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    .hero-content {
+        margin-left: 40px;
+        min-width: 50%;
+        max-width: 60%;
+    }
+      
+    .hero-content h1 {
+        font-size:34px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+      
+    .hero-buttons {
+        gap: 14px;
+        margin-top: 14px;
+    }
+      
+    .hero-image img {
+        max-width: 100%;
+    }
+}
