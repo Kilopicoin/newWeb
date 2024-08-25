@@ -78,7 +78,9 @@ function App() {
 
       <h2 className='centerText'>Ecosystem</h2>
 
-
+      <h4 className='briefh4'>
+      The Kilopi ecosystem is a diverse network of decentralized applications (dApps) designed to foster innovation, transparency, and sustainability. Each dApp within the ecosystem plays a unique role in enhancing the value of the LOP token, while also providing opportunities for community engagement and participation. Whether you’re building, promoting, staking, or using the dApps, the Kilopi ecosystem empowers you to contribute to the project’s growth and long-term success.
+      </h4>
 
       <div className='portfolio-element'>
       <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Application Development Protocol</div></h3>
@@ -355,8 +357,16 @@ function App() {
 
       <h2 className='centerText'>Token Details</h2>
 
+      <h4 className='briefh4'>The LOP token is the cornerstone of the Kilopi ecosystem, functioning across multiple blockchains such as Harmony, Binance Smart Chain, and Solana. With a deflationary model and a focus on utility, the LOP token is designed to increase in value over time. As you interact with the various dApps and protocols, you’ll see firsthand how LOP tokens play a critical role in driving the ecosystem forward.</h4>
 
-
+<div className='footer-buttons'>
+      <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/tokenomics" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Tokenomics</button>
+            </a>
+            <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/staking" target="_blank" rel="noopener noreferrer">
+              <button className="primary-button">Staking</button>
+            </a>
+            </div> 
       <div className='portfolio-element'>
       <h3 className='centerText-portfolio-element'><div className='inlineRenkli'>Harmony Chain</div></h3>
       <div className="hero-section-portfolio">
@@ -452,6 +462,7 @@ function App() {
       {/* Team Members Section */}
       <div id="team-section">
         <h2 className="centerText">About the Foundation</h2>
+        <h4 className='briefh4'>The Kilopi Foundation is dedicated to building a decentralized future by fostering innovation and collaboration within the blockchain space. With a commitment to transparency, security, and community-driven development, the foundation leads the way in creating sustainable Web3 applications. Our goal is to empower individuals and organizations to contribute to the ecosystem while benefiting from the opportunities it presents.</h4>
         <div className="team-cards">
           <div className="team-card">
             <img src="/images/cem.jpg" alt="Team Member 1" />
@@ -738,6 +749,7 @@ function App() {
           
           <div className="footer-text">
             <h2>Let's Grow Together</h2>
+            <h4 className='briefh4'>At Kilopi, we believe in the power of collaboration and community. Whether you're a developer, marketer, or investor, there’s a place for you in our ecosystem. Together, we can build, promote, and sustain decentralized applications that add value to the LOP token and beyond. Join us on this journey, and let’s grow the Kilopi project together.</h4>
             <div className="footer-buttons">
               <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/application-development-protocol" target="_blank" rel="noopener noreferrer">
                 <button className="primary-button">Start Building</button>

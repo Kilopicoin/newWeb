@@ -49,7 +49,7 @@ body {
 
 /* Button Styles */
 .primary-button {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #24C6DC, #514A9D);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .primary-button:hover {
-  background: linear-gradient(135deg, #a777e3, #6e8efb);
+  background: linear-gradient(135deg, #3dc4d6, #6a659c);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
@@ -171,7 +171,7 @@ body {
   text-align: center;
   color: #fff;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 3px;
 }
 
 /* Token Details Section */
@@ -243,7 +243,7 @@ body {
 }
 
 .team-role {
-  color: #a777e3;
+  color: #00e1ff;
   font-size: 1rem;
   margin-bottom: 10px;
 }
@@ -296,6 +296,7 @@ body {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .footer-buttons a {
@@ -514,14 +515,14 @@ body {
 }
 
 .scroll-to-top:hover {
-  background-color: #a777e3;
+  background-color: #00e1ff;
   transform: translateY(-6px);
 }
 
 
 .inlineRenkli {
   display: inline;
-  color:#a777e3;
+  color:#00e1ff;
 }
 
 h4 {
@@ -552,5 +553,13 @@ h4 {
 }
 
 .conduct-list strong {
-  color: #a777e3;
+  color: #00e1ff;
+}
+
+.briefh4 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
