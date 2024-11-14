@@ -134,7 +134,7 @@ const PortfolioShowcase = () => {
                     miniTitle2={"Benefits to the Kilopi: "}
                     miniInfo2={"Every transaction add Liquidity to LOP token"}
                     button1Name={"Forge"}
-                    button1Link={"https://kilopi.net/forge/"}
+                    button1Link={"https://kilopi.net/forge/selector/"}
                     button2Name={"Docs"}
                     button2Link={"https://kilopi.gitbook.io/kilopi-docs/ecosystem/forge"}
                     imageSrc={ForgePng}
