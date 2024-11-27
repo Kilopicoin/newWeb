@@ -128,9 +128,9 @@ const PortfolioShowcase = () => {
                 />
                 <PortfolioElement 
                     title={"Forge"}
-                    info={"Forge is a tool for creating tokens on Solana Chain. Users can create their own tokens with the latest secure standard of Solana Chain. Users then create liquidities and markets on their tokens."}
+                    info={"Forge is a tool for creating tokens on some certain Chains. Users can create their own tokens with the latest security standards. Users then create liquidities and markets on their tokens."}
                     miniTitle1={"Blockchain: "}
-                    miniInfo1={"Solana Chain"}
+                    miniInfo1={"Solana, Harmony"}
                     miniTitle2={"Benefits to the Kilopi: "}
                     miniInfo2={"Every transaction add Liquidity to LOP token"}
                     button1Name={"Forge"}
