@@ -9,6 +9,8 @@ import PathfinderPng from '../images/pathfinder.png';
 import DaoPng from '../images/dao.png';
 import MomPng from '../images/mom.png';
 import ForgePng from '../images/forge.png';
+import RecallPng from '../images/recall.png';
+
 
 import "./PortfolioShowcase.css";
 
@@ -126,6 +128,18 @@ const PortfolioShowcase = () => {
                     button2Link={"https://kilopi.gitbook.io/kilopi-docs/ecosystem/masters-of-management"}
                     imageSrc={MomPng}
                 />
+                <PortfolioElement 
+    title={"Recall - Medieval MMORPG"}
+    info={"Recall is an epic medieval MMORPG game developed under the Kilopi ecosystem. It features a skill-based combat system, lore-rich open world, MOBA-style competitive arenas, and a sustainable in-game economy."}
+    miniTitle1={"Blockchain: "}
+    miniInfo1={"Harmony, BinanceSmart"}
+    miniTitle2={"Benefits to the Kilopi: "}
+    miniInfo2={"Brings adoption through gaming, long-term token economy design, and community engagement."}
+    button1Name={"Recall"}
+    button1Link={"https://kilopi.net/recall/"}
+    imageSrc={RecallPng}
+/>
+
                 <PortfolioElement 
                     title={"Forge"}
                     info={"Forge is a tool for creating tokens on some certain Chains. Users can create their own tokens with the latest security standards. Users then create liquidities and markets on their tokens."}
