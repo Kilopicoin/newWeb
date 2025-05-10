@@ -10,6 +10,7 @@ import DaoPng from '../images/dao.png';
 import MomPng from '../images/mom.png';
 import ForgePng from '../images/forge.png';
 import RecallPng from '../images/recall.png';
+import SpcPng from '../images/spc.png';
 
 
 import "./PortfolioShowcase.css";
@@ -128,6 +129,21 @@ const PortfolioShowcase = () => {
                     button2Link={"https://kilopi.gitbook.io/kilopi-docs/ecosystem/masters-of-management"}
                     imageSrc={MomPng}
                 />
+
+
+                <PortfolioElement 
+    title={"SPC APP"}
+    info={"SPC APP is a simple engineering app where the users are able to create and manage their SPC's on chain"}
+    miniTitle1={"Blockchain: "}
+    miniInfo1={"Harmony"}
+    miniTitle2={"Benefits to the Kilopi: "}
+    miniInfo2={"Giving Engineers a different perspective with Blockchain and meeting them with Kilopi"}
+    button1Name={"SPC App"}
+    button1Link={"https://kilopi.net/spcapp/"}
+    imageSrc={SpcPng}
+/>
+
+
                 <PortfolioElement 
     title={"Recall - Medieval MMORPG"}
     info={"Recall is an epic medieval MMORPG game developed under the Kilopi ecosystem. It features a skill-based combat system, lore-rich open world, MOBA-style competitive arenas, and a sustainable in-game economy."}
