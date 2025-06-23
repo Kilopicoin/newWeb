@@ -2,7 +2,6 @@ import React from 'react';
 import './TokenDetails.css';
 import HarmonyPng from '../images/harmony.png';
 import BinancePng from '../images/bsc.png';
-import SolanaPng from '../images/solana.png';
 
 import PortfolioElement from './PortfolioElement';
 
@@ -14,7 +13,7 @@ const TokenDetails = () => {
         <div className="token-details-inside">
           <h2 className='centerText'>Token Details</h2>
           <h4 className='briefh4'>
-          The LOP token is the cornerstone of the Kilopi ecosystem, functioning across multiple blockchains such as Harmony, Binance Smart Chain, and Solana. With a deflationary model and a focus on utility, the LOP token is designed to increase in value over time. As you interact with the various dApps and protocols, you’ll see firsthand how LOP tokens play a critical role in driving the ecosystem forward.
+          The LOP token is the cornerstone of the Kilopi ecosystem, functioning across multiple blockchains such as Harmony and Binance Smart Chain. With a deflationary model and a focus on utility, the LOP token is designed to increase in value over time. As you interact with the various dApps and protocols, you’ll see firsthand how LOP tokens play a critical role in driving the ecosystem forward.
           </h4>
           <div className='token-details-buttons'>
             <a href="https://kilopi.gitbook.io/kilopi-docs/lop-token/tokenomics" target="_blank" rel="noopener noreferrer">
@@ -53,21 +52,6 @@ const TokenDetails = () => {
             button3Name={"Docs"}
             button3Link={"https://kilopi.gitbook.io/kilopi-docs/lop-token/binance-smart-chain"}
             imageSrc={BinancePng}
-          />
-          <PortfolioElement 
-            title={"Solana Chain"}
-            info={"Solana Chain is the third chain of Kilopi project. LOP token on Solana Chain has been created to provide a solid liquitiy for the Kilopi project."}
-            miniTitle1={"Purpose: "}
-            miniInfo1={"Creating as much as liquitiy possible, reach %100 circulation amount in time and make the LOP token as valueable as possible"}
-            miniTitle2={"Contract Address: "}
-            miniInfo2={"7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2"}
-            button1Name={"Explorer"}
-            button1Link={"https://solscan.io/token/7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2"}
-            button2Name={"DEX Liquidity"}
-            button2Link={"https://www.dextools.io/app/en/solana/pair-explorer/JCVxDdvbVterUCHKiGWWG6ibcC4HFCg4SzmYCMP8Wr4n?t=1724482058048"}
-            button3Name={"Docs"}
-            button3Link={"https://kilopi.gitbook.io/kilopi-docs/lop-token/solana"}
-            imageSrc={SolanaPng}
           />
         </div>
       </div>
