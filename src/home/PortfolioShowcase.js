@@ -11,6 +11,7 @@ import MomPng from '../images/mom.png';
 import ForgePng from '../images/forge.png';
 import TheCrownlessPng from '../images/thecrownless.png';
 import SpcPng from '../images/spc.png';
+import NftMarketPng from '../images/nftmarket.png';
 
 
 import "./PortfolioShowcase.css";
@@ -128,6 +129,17 @@ const PortfolioShowcase = () => {
                     button2Name={"Docs"}
                     button2Link={"https://kilopi.gitbook.io/kilopi-docs/ecosystem/masters-of-management"}
                     imageSrc={MomPng}
+                />
+                <PortfolioElement 
+                    title={"NFT Marketplace"}
+                    info={"NFT Marketplace is a decentralized NFT image marketplace where mainly for the NFTs of Masters of Management and also for other purposes "}
+                    miniTitle1={"Blockchain: "}
+                    miniInfo1={"Harmony Chain"}
+                    miniTitle2={"Benefits to the Kilopi: "}
+                    miniInfo2={"Trading between players burns LOP tokens."}
+                    button1Name={"NFT Marketplace"}
+                    button1Link={"https://kilopi.net/nftmarket/"}
+                    imageSrc={NftMarketPng}
                 />
 
 
