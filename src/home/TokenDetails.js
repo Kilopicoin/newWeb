@@ -44,11 +44,11 @@ const TokenDetails = () => {
             miniTitle1={"Purpose: "}
             miniInfo1={"Creating as many as utility areas for LOP token on Binance Smart Chain, reach %100 circulation amount in time and make the LOP token as valueable as possible"}
             miniTitle2={"Contract Address: "}
-            miniInfo2={"0x20B4620a767D6dCcBB9314104D5Cf0d08d1F7045"}
+            miniInfo2={"0xCF3D31Dd1BCEd6121d97E98D110f8fc54D993365"}
             button1Name={"Explorer"}
-            button1Link={"https://bscscan.com/token/0x20b4620a767d6dccbb9314104d5cf0d08d1f7045"}
+            button1Link={"https://bscscan.com/token/0xCF3D31Dd1BCEd6121d97E98D110f8fc54D993365"}
             button2Name={"DEX Liquidity"}
-            button2Link={"https://dexscreener.com/bsc/0x5efd04dd954da8694360f92bd6d4bd83122798c2"}
+            button2Link={"https://dexscreener.com/bsc/0xe10561991ca845fc600ae4fdd23bd94b615abd53"}
             button3Name={"Docs"}
             button3Link={"https://kilopi.gitbook.io/kilopi-docs/lop-token/binance-smart-chain"}
             imageSrc={BinancePng}

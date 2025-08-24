@@ -32,9 +32,6 @@ const Footer = () => {
                 <a href="https://x.com/kilopicoin" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/company/kilopi-d-a-o/" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin"></i>
-                </a>
                 <a href="https://www.youtube.com/@KilopiProject" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-youtube"></i>
                 </a>
@@ -43,9 +40,6 @@ const Footer = () => {
                 </a>
                 <a href="https://github.com/Kilopicoin" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-github"></i>
-                </a>
-                <a href="https://medium.com/@kilopi_lop" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-medium"></i>
                 </a>
                 </div>
             </div>
