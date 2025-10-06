@@ -23,9 +23,7 @@ const NavBar = () => {
                     <a className="link-drop-down" href="#team-section">{t("about")}</a>
                     <a className="link-drop-down" href="#faq-section">{t("FAQ")}</a>
                     <a className="link-drop-down" href="#footer-content">{t("community")}</a>
-                    <a className="link-pod" href="https://kilopi.net/pod" target="_blank" rel="noopener noreferrer">
-                        <button className="launch-app-button">{t("PoD")}</button>
-                    </a>
+
                     <button className='navbar-burger'
                         onClick={() => {setIsOpen(!isOpen)}}
                     >
@@ -47,9 +45,6 @@ const NavBar = () => {
                 <a href="#team-section">{t("about")}</a>
                 <a href="#faq-section">{t("FAQ")}</a>
                 <a href="#footer-content">{t("community")}</a>
-                <a className="link-drop-down-pod" href="https://kilopi.net/pod" target="_blank" rel="noopener noreferrer">
-                    <button className="launch-app-button">{t("PoD")}</button>
-                </a>
             </div>
       </nav>
     );

@@ -44,20 +44,18 @@ const FAQ = () => {
             <FAQItem id={5} quest={"What is a D.A.O?"}
               answer={"D.A.O stands for Decentralized Autonomous Organization, where there is no central authority."}/>
             <FAQItem id={6} quest={"What is Kilopi D.A.O?"}
-              answer={"Kilopi D.A.O is the main structure where decisions are made. It consists of all community channels like Telegram, Twitter, and YouTube, and includes a core web3 application where the community can propose and comment."}/>
+              answer={"Kilopi D.A.O is the main structure where decisions are made. It consists of all community channels like Telegram, Twitter, and YouTube, and includes a poll dApp where community can create video requests."}/>
             <FAQItem id={7} quest={"What is the purpose of the Kilopi D.A.O?"}
               answer={"The purpose of the Kilopi D.A.O is to build a fair and sustainable decentralized autonomous organization to create sustainable decentralized applications on blockchains."}/>
             <FAQItem id={8} quest={"How can I get involved in Kilopi D.A.O?"}
               answer={"There are 4 ways. 1. You can build web3 applications, 2. You can do marketing activities, 3. You can invest, 4. You can use Ecosystem Applications"}/>
-            <FAQItem id={9} quest={"What is the role of the LOP token in Kilopi D.A.O?"}
-              answer={"All processes in Kilopi D.A.O require LOP tokens to make the system sustainable and prevent flooding. You can withdraw your tokens after a month without any fees."}/>
-            <FAQItem id={10} quest={"How many total dApps will the Kilopi project have?"}
+             <FAQItem id={9} quest={"How many total dApps will the Kilopi project have?"}
               answer={"The number is unlimited. The main team will start a new one every time a dApp development is finalized."}/>
-            <FAQItem id={11} quest={"Can I stake my LOP tokens?"}
-              answer={"Yes. For Harmony Chain, you can use Collector Application in the Ecosystem. For Binance Smart Chain, you can use \"Application Development Protocol\" or \"Marketing Protocol\" in the Ecosystem, for Solana Chain, there is only liquidity staking option on Raydium DEX."}/>
-            <FAQItem id={12} quest={"Is there an exit plan from the project?"}
-              answer={"No, there is no exit plan from the Kilopi project. Core team will keep educating new people and develop as many as decentralized applications until the circulation supply reaches to maximum supply."}/>
-            <FAQItem id={13} quest={"I have another question!"}
+            <FAQItem id={10} quest={"Can I stake my LOP tokens?"}
+              answer={"Yes. For Harmony Chain, you can use Collector Application in the Ecosystem until 2027 ( Staking will be disabled for new entries at the end of 2026 )."}/>
+            <FAQItem id={11} quest={"Is there an exit plan from the project?"}
+              answer={"Yes, Core team will keep educating new people and develop as many as decentralized applications until the circulation supply reaches to maximum supply. Then Buyback&Burn will continue until the burn of all the LOP token supply on both Chains"}/>
+            <FAQItem id={12} quest={"I have another question!"}
               answer={"Please send an email to info@kilopi.net. We will reply back as soon as possible."}/>
           </div>
         </div>

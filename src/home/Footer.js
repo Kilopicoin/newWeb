@@ -11,17 +11,7 @@ const Footer = () => {
                 <div className="footer-text">
             <h2>Let's Grow Together</h2>
             <h4 className='briefh4'>At Kilopi, we believe in the power of collaboration and community. Whether you're a developer, marketer, or investor, there’s a place for you in our ecosystem. Together, we can build, promote, and sustain decentralized applications that add value to the LOP token and beyond. Join us on this journey, and let’s grow the Kilopi project together.</h4>
-            <div className="footer-buttons">
-              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/application-development-protocol" target="_blank" rel="noopener noreferrer">
-                <button className="primary-button">Start Building</button>
-              </a>
-              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/marketing-protocol" target="_blank" rel="noopener noreferrer">
-                <button className="primary-button">Start Promoting</button>
-              </a>
-              <a href="https://kilopi.gitbook.io/kilopi-docs/ecosystem/pod/exchange-listing-protocol" target="_blank" rel="noopener noreferrer">
-                <button className="primary-button">Start Investing</button>
-              </a>
-            </div>
+
           </div>
 
 
@@ -54,25 +44,22 @@ const Footer = () => {
             <a href="https://kilopi.gitbook.io/kilopi-docs/foundation/intro" target="_blank" rel="noopener noreferrer">Foundation</a>
           </div>
           <div className="footer-links-column">
-            <h3>Proof of Development</h3>
-            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Application Development Protocol</a>
-            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Marketing Protocol</a>
-            <a href="https://kilopi.net/pod/" target="_blank" rel="noopener noreferrer">Exchange Listing Protocol</a>
-          </div>
-          <div className="footer-links-column">
             <h3>D.A.O</h3>
             <a href="https://kilopi.net/nodoubt/" target="_blank" rel="noopener noreferrer">No Doubt</a>
             <a href="https://kilopi.net/pathfinder/" target="_blank" rel="noopener noreferrer">Pathfinder</a>
-            <a href="https://kilopi.net/dao/" target="_blank" rel="noopener noreferrer">D.A.O dApp</a>
           </div>
           <div className="footer-links-column">
             <h3>Tools</h3>
             <a href="https://kilopi.net/staking/" target="_blank" rel="noopener noreferrer">Collector</a>
             <a href="https://kilopi.net/forge/" target="_blank" rel="noopener noreferrer">Forge</a>
+            <a href="https://kilopi.net/nftmarket/" target="_blank" rel="noopener noreferrer">NFT Market</a>
+            <a href="https://kilopi.net/spcapp/" target="_blank" rel="noopener noreferrer">SCP App</a>
           </div>
           <div className="footer-links-column">
             <h3>Games</h3>
-            <a href="https://kilopi.net/mom/" target="_blank" rel="noopener noreferrer">Masters of Management</a>
+            <a href="https://kilopi.net/mom/full/" target="_blank" rel="noopener noreferrer">Masters of Management</a>
+            <a href="https://thecrownless.com/" target="_blank" rel="noopener noreferrer">The Crownless</a>
+            <a href="https://kilopi.net/perseus/" target="_blank" rel="noopener noreferrer">Perseus</a>
           </div>
         </div>
 

@@ -89,7 +89,7 @@ const TeamSection = () => {
                         instagramLinks={["https://www.instagram.com/kilopin3142/"]}
                         linkedinLinks={["https://www.linkedin.com/in/cem-tosun-45979871/"]}
                         twitterLinks={["https://twitter.com/kilopi3142_"]}
-                        youtubeLinks={["https://www.youtube.com/@cemtosun_/videos","https://www.youtube.com/@gemtosun_/videos"]}
+                        youtubeLinks={["https://www.youtube.com/@cemtosun_/videos"]}
                         githubLinks={["https://github.com/Kilopi3142"]}
                     />
                     <TeamCard
